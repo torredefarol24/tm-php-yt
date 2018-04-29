@@ -12,6 +12,7 @@
         $theMsg = 'Please use valid email';
         $theMsgClass = 'danger';
       } else {
+        $theMsg = "{$name}, {$email}";
         $toEmail = "burningraven06@gmail.com";
         $emailSubject = 'Contact Request From '. $name;
         $emailBody = "<h2> Form Submission Request </h2> <p> Name: {$name} </p> <p> Email: {$email}</p> <p> Msg: {$msg}</p>";
