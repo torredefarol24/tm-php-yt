@@ -3,6 +3,9 @@ class Person{
   private $name;
   private $email;
 
+  public static $ageLimit = 50;
+  private static $numHands = 2;
+
   public function getName(){
     return $this->name;
   }
@@ -18,11 +21,17 @@ class Person{
   public function setEmail($email){
     $this->email = $email;
   }
+
+  public static function getNumHands(){
+    return self::$numHands;
+  }
 }
 
 $person1 = new Person;
 $person1->setName("JayDee");
 echo $person1->getName() . "<br>";
+echo Person::$ageLimit . "<br> ";
+echo Person::getNumHands() . "<br> ";
 
 class GreatPerson{
   private $name;
