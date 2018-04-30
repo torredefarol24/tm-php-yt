@@ -21,7 +21,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>PHP Sessions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css' />
+  <link rel='stylesheet' href='assets/bootstrap.min.css' />                          
 </head>
 <body>
   <div class='container'>

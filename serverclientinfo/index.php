@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>System Info</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css' type="text/css" media="screen" />
-  <script src="main.js"></script>
+  <link rel='stylesheet' href='../assets/bootstrap.min.css' />
 </head>
 <body>
   <h1> Server & Client Info</h1>

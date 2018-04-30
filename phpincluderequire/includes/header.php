@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<title> PHP Site1</title>
+		<link rel='stylesheet' href='../assets/bootstrap.min.css' />
+
 	</head>
 	<body>
 		<ul>
