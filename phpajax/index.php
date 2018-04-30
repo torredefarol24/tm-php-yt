@@ -18,7 +18,17 @@
 </body>
 <script>
   function showSuggestions(str){
-    console.log(str);
+    if (str.length == 0){
+      document.getElementById("output").innerHTML = "";
+    } else {
+      var xhr = new XMLHttpRequest();
+      var URL = `suggest.php?q=${str}`;
+      xhr.open('GET', URL, true);
+      xhr.onload = function(){
+        document.getElementById("output").innerHTML = this.responseText;
+      }
+      xhr.send();
+    }
   }
 </script>
 </html>
